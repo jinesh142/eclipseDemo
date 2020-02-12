@@ -1,5 +1,8 @@
 package com.jina.eclipesgit.model;
 
+import org.hibernate.annotations.Entity;
+
+@Entity
 public class Employee {
 
 	private String employeeId;
