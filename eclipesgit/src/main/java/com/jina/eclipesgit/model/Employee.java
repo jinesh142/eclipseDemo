@@ -1,8 +1,6 @@
 package com.jina.eclipesgit.model;
 
-import org.hibernate.annotations.Entity;
 
-@Entity
 public class Employee {
 
 	private String employeeId;
@@ -37,5 +35,5 @@ public class Employee {
 	public void setEmployeeAddr(String employeeAddr) {
 		this.employeeAddr = employeeAddr;
 	}
-	
+	// is commit is done actually
 }
